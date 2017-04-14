@@ -19,6 +19,7 @@
     <modules>
         <module>cloud-config</module>
         <module>cloud-eureka</module>
+        <module>cloud-random-service</module>
     </modules>
 
     <properties>
