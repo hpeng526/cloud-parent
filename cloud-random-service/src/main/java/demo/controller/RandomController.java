@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class RandomController {
 
     @RequestMapping("/rand")
-    public String getWord() {
-        Integer ran = Math.toIntExact(Math.round(Math.random() * 1000));
+    public String getRand() {
+        Integer ran = Math.toIntExact(Math.round(Math.random() * 10000));
         return ran.toString();
     }
 }
